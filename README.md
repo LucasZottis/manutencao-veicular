@@ -1,6 +1,10 @@
 # Controle Veícular
 
-Controle veícular é um aplicativo para Android para controle de serviços e abastecimentos realizados em seu veículo. O aplicativo oferece uma forma de controle de serviços e abastecimento de seu veículo. O aplicativo oferece acompanhamento de serviços realizados e serviços que serão realizados, assim visualizando quanto que foi gasto e previsão de gastos futuros. O aplicativo também oferece acompanhamento de abastecimento do veículo, controlando o consumo e valor por abastecimento.
+Controle veícular é um aplicativo para Android para controle de serviços e abastecimentos realizados em seu veículo.
+
+## Detalhes
+
+O aplicativo oferece uma forma de controle de serviços e abastecimento de seu veículo. O aplicativo oferece acompanhamento de serviços realizados e serviços que serão realizados, assim visualizando quanto que foi gasto e previsão de gastos futuros. O aplicativo também oferece acompanhamento de abastecimento do veículo, controlando o consumo e valor por abastecimento.
 
 ### Funcionlidades
 
