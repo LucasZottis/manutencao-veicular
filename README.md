@@ -56,4 +56,4 @@ Para cadastrar um novo abastecimento será solicitado:
 - Tipo de combustível (Gasolina, etanol, diesel, GNV)
 
 
-### *Ao cadastrar um serviço ou abastecimento é mostrado a opção de atualizar o odômetro atual do veículo com o odômetro no momento do cadastro. O odômetro do veículo não será atualizado caso o odômetro no momento do cadastro esteja abaixo.*
+*Ao cadastrar um serviço ou abastecimento é mostrado a opção de atualizar o odômetro atual do veículo com o odômetro no momento do cadastro. O odômetro do veículo não será atualizado caso o odômetro no momento do cadastro esteja abaixo.*
