@@ -67,3 +67,7 @@ Para cadastrar um novo abastecimento será solicitado:
 *Caso o veículo aceite apenas um tipo de combustível, será selecionado automaticamente no cadastro de abastecimento.*
 
 ***Ao cadastrar um serviço ou abastecimento é mostrado a opção de atualizar o odômetro atual do veículo com o odômetro no momento do cadastro. O odômetro do veículo não será atualizado caso o odômetro no momento do cadastro esteja abaixo.***
+
+### Dashboard
+
+No dashboard irá mostrar os próximos serviços com opção de filtrar por veículo. Conforme o odômetro vai se aproximando da quilometragem do serviço, a cor do card será alterado.
