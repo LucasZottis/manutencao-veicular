@@ -18,7 +18,15 @@ O aplicativo oferece uma forma de controle de serviços e abastecimento de seu v
 ### Garagem
 
 A tela "Garagem" é listado todos os veículos cadastrados. Uma lista de veículos aparece logo que entra na tela, exibindo informações de veículo como apelido, placa e quilometragem atual do veículo.
-Para cadastrar um novo veículo é solicitado um apelido para o veículo, placa (opcional), quilometragem atual e capacidade do tanque (opcional).
+Para cadastrar um novo veículo é solicitado:
+
+- Apelido para o veículo
+- Odômetro atual
+- Capacidade do tanque (opcional)
+- Placa (opcional)
+- Tipo de comustível aceito (opcional)
+
+O tipo de combustível aceito é opcional, mas é recomendado informar para no momento do cadastro de abastecimento o aplicativo avise quando o tipo de combustível informado está divergente.
 
 ### Histórico Serviços
 
@@ -37,6 +45,7 @@ Para cadastrar um novo serviço é solicitado:
 - Estabelecimento (opcional).
 - Observação (opcional).
 - Quilometragem até o próximo serviço (opcional, a quilometragem até o próximo serviço é para serviços recorrentes como troca de óleo, pneu e revisões.)
+
 ### Histórico de abastecimento
 
 A lista de abastecimentos do seu veículo pode ser acesso clicando em seu veículo na garagem. Cada item da lista irá mostrar a data, o valor, quilometragem no momento do abastecimento e quantidade de litros total.
@@ -53,7 +62,8 @@ Para cadastrar um novo abastecimento será solicitado:
 - Valor total pago
 - Total de litros
 - Valor por litro (opcional)
-- Tipo de combustível (Gasolina, etanol, diesel, GNV)
+- Tipo de combustível (opcional)
 
+*Caso o veículo aceite apenas um tipo de combustível, será selecionado automaticamente*
 
-*Ao cadastrar um serviço ou abastecimento é mostrado a opção de atualizar o odômetro atual do veículo com o odômetro no momento do cadastro. O odômetro do veículo não será atualizado caso o odômetro no momento do cadastro esteja abaixo.*
+### *Ao cadastrar um serviço ou abastecimento é mostrado a opção de atualizar o odômetro atual do veículo com o odômetro no momento do cadastro. O odômetro do veículo não será atualizado caso o odômetro no momento do cadastro esteja abaixo.*
