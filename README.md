@@ -29,17 +29,14 @@ Lista de serviços realizados é acessado ao clicar em um veículo na garagem.
 
 Para cadastrar um novo serviço é solicitado:
 
+- O veículo vinculado ao serviço, caso tenha apenas um veículo na garagem será selecionado automaticamente.
 - Data e hora (hora é opcional).
 - Odômetro no momento do serviço.
 - Valor do serviço.
 - Descrição do serviço (opcional).
 - Estabelecimento (opcional).
 - Observação (opcional).
-- Quilometragem até o próximo serviço (opcional)
-
-A quilometragem até o próximo serviço é para serviços recorrentes como troca de óleo, pneu e revisões.
-Ao cadastrar um serviço novo é mostrado a opção de atualizar o odômetro atual do veículo com o odômetro no momento doserviço.
-
+- Quilometragem até o próximo serviço (opcional, a quilometragem até o próximo serviço é para serviços recorrentes como troca de óleo, pneu e revisões.)
 ### Histórico de abastecimento
 
 A lista de abastecimentos do seu veículo pode ser acesso clicando em seu veículo na garagem. Cada item da lista irá mostrar a data, o valor, quilometragem no momento do abastecimento e quantidade de litros total.
@@ -48,3 +45,15 @@ A lista de abastecimentos do seu veículo pode ser acesso clicando em seu veícu
 - Último abastecimento realizado.
 - Consumo médio do veículo ao longo do tempo.
 - Consumo médio desde o último abastecimento.
+
+Para cadastrar um novo abastecimento será solicitado:
+
+- O veículo vinculado ao serviço, caso tenha apenas um veículo na garagem será selecionado automaticamente.
+- Data e hora (hora é opcional).
+- Valor total pago
+- Total de litros
+- Valor por litro (opcional)
+- Tipo de combustível (Gasolina, etanol, diesel, GNV)
+
+
+### *Ao cadastrar um serviço ou abastecimento é mostrado a opção de atualizar o odômetro atual do veículo com o odômetro no momento do cadastro. O odômetro do veículo não será atualizado caso o odômetro no momento do cadastro esteja abaixo.*
