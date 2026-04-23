@@ -9,17 +9,42 @@ O aplicativo oferece uma forma de controle de serviços e abastecimento de seu v
 ## Funcionlidades
 
 - Listagem e cadastro de veículo
-- Listagem e cadastro de serviços realizados
-- Listagem e cadastro de serviços a serem realizados
-- Listagem e cadastro de abastecimentos
 - Dashboard para exibição de indicadores
+- Histórico de abastecimentos e acompanhamento do consumo de combustível de seu veículo.
+- Histórico de serviços realizados e acompanhamento para os futuros serviços.
 
 ## Telas
 
 ### Garagem
 
 A tela "Garagem" é listado todos os veículos cadastrados. Uma lista de veículos aparece logo que entra na tela, exibindo informações de veículo como apelido, placa e quilometragem atual do veículo.
-Para cadastrar um novo veículo é necessário apenas essas informações.
+Para cadastrar um novo veículo é solicitado um apelido para o veículo, placa (opcional), quilometragem atual e capacidade do tanque (opcional).
 
-### Serviços
+### Histórico Serviços
 
+Lista de serviços realizados é acessado ao clicar em um veículo na garagem. 
+
+- Total gasto no veículo com serviços.
+- Filtrar por tela ano, mês e dia.
+
+Para cadastrar um novo serviço é solicitado:
+
+- Data e hora (hora é opcional).
+- Odômetro no momento do serviço.
+- Valor do serviço.
+- Descrição do serviço (opcional).
+- Estabelecimento (opcional).
+- Observação (opcional).
+- Quilometragem até o próximo serviço (opcional)
+
+A quilometragem até o próximo serviço é para serviços recorrentes como troca de óleo, pneu e revisões.
+Ao cadastrar um serviço novo é mostrado a opção de atualizar o odômetro atual do veículo com o odômetro no momento doserviço.
+
+### Histórico de abastecimento
+
+A lista de abastecimentos do seu veículo pode ser acesso clicando em seu veículo na garagem. Cada item da lista irá mostrar a data, o valor, quilometragem no momento do abastecimento e quantidade de litros total.
+
+- Total gasto com combustível.
+- Último abastecimento realizado.
+- Consumo médio do veículo ao longo do tempo.
+- Consumo médio desde o último abastecimento.
