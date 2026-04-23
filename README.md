@@ -6,24 +6,20 @@ Controle veícular é um aplicativo para Android para controle de serviços e ab
 
 O aplicativo oferece uma forma de controle de serviços e abastecimento de seu veículo. O aplicativo oferece acompanhamento de serviços realizados e serviços que serão realizados, assim visualizando quanto que foi gasto e previsão de gastos futuros. O aplicativo também oferece acompanhamento de abastecimento do veículo, controlando o consumo e valor por abastecimento.
 
-### Funcionlidades
+## Funcionlidades
 
-- Cadastro de Veículo
-- Cadastro de Serviço Realizado
-- Cadastro de Abastecimento
+- Listagem e cadastro de veículo
+- Listagem e cadastro de serviços realizados
+- Listagem e cadastro de serviços a serem realizados
+- Listagem e cadastro de abastecimentos
+- Dashboard para exibição de indicadores
 
-### Cadastro de Veículo
+## Telas
 
-- Apelido para o Veículo
-- Placa
-- Quilometragem Atual
+### Garagem
 
-### Cadastro de Serviço Realizado
+A tela "Garagem" é listado todos os veículos cadastrados. Uma lista de veículos aparece logo que entra na tela, exibindo informações de veículo como apelido, placa e quilometragem atual do veículo.
+Para cadastrar um novo veículo é necessário apenas essas informações.
 
-- Veículo
-- Data de realização do serviço
-- Quilometragem no momento do serviço
-- Se deve alterar a quilometragem atual do veículo
-- Valor do serviço
-- Nome do estabelecimento (opcional)
-- Quilometragem necessária para o próximo serviço (opcional)
+### Serviços
+
