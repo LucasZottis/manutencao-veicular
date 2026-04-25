@@ -13,9 +13,7 @@ O aplicativo oferece uma forma de controle de serviços e abastecimento de seu v
 - Histórico de abastecimentos e acompanhamento do consumo de combustível de seu veículo.
 - Histórico de serviços realizados e acompanhamento para os futuros serviços.
 
-## Telas
-
-### Garagem
+## Garagem
 
 A tela "Garagem" é listado todos os veículos cadastrados. Uma lista de veículos aparece logo que entra na tela, exibindo informações de veículo como apelido, placa e quilometragem atual do veículo.
 Para cadastrar um novo veículo é solicitado:
@@ -28,7 +26,7 @@ Para cadastrar um novo veículo é solicitado:
 
 O tipo de combustível aceito é opcional, mas é recomendado informar para no momento do cadastro de abastecimento o aplicativo avise quando o tipo de combustível informado está divergente.
 
-### Histórico Serviços
+## Histórico Serviços
 
 Lista de serviços realizados é acessado ao clicar em um veículo na garagem. 
 
@@ -46,7 +44,7 @@ Para cadastrar um novo serviço é solicitado:
 - Observação (opcional).
 - Quilometragem até o próximo serviço (opcional, a quilometragem até o próximo serviço é para serviços recorrentes como troca de óleo, pneu e revisões.)
 
-### Histórico de abastecimento
+## Histórico de abastecimento
 
 A lista de abastecimentos do seu veículo pode ser acesso clicando em seu veículo na garagem. Cada item da lista irá mostrar a data, o valor, quilometragem no momento do abastecimento e quantidade de litros total.
 
