@@ -1,28 +1,23 @@
 @startuml controle_veicular_er
 
-skinparam classAttributeIconSize 0
-skinparam class {
-    FontSize 12
-}
-
 ' ── Lookup Tables ────────────────────────────────────────
 
 entity TipoCombustivel {
     * Id : INT <<PK>>
     --
-    * Descricao : VARCHAR(50)
+    * Descricao : VARCHAR
 }
 
 entity TipoServico {
     * Id : INT <<PK>>
     --
-    * Descricao : VARCHAR(100)
+    * Descricao : VARCHAR
 }
 
 entity Estabelecimento {
     * Id : INT <<PK>>
     --
-    * Nome : VARCHAR(200)
+    * Nome : VARCHAR
 }
 
 ' ── Entidades principais ─────────────────────────────────
@@ -30,10 +25,10 @@ entity Estabelecimento {
 entity Veiculo {
     * Id : INT <<PK>>
     --
-    * Apelido : VARCHAR(100)
-    * OdometroAtual : DECIMAL(10,2)
-    TanqueCapacidade : DECIMAL(6,2)
-    Placa : VARCHAR(10)
+    * Apelido : VARCHAR
+    * OdometroAtual : DECIMAL
+    TanqueCapacidade : DECIMAL
+    Placa : VARCHAR
     TipoCombustivelId : INT <<FK>>
 }
 
@@ -44,11 +39,11 @@ entity Servico {
     TipoServicoId : INT <<FK>>
     EstabelecimentoId : INT <<FK>>
     * DataHora : DATETIME
-    * Odometro : DECIMAL(10,2)
-    * Valor : DECIMAL(10,2)
-    Descricao : VARCHAR(500)
-    Observacao : VARCHAR(500)
-    KmProximoServico : DECIMAL(10,2)
+    * Odometro : DECIMAL
+    * Valor : DECIMAL
+    Descricao : VARCHAR
+    Observacao : VARCHAR
+    KmProximoServico : DECIMAL
 }
 
 entity Abastecimento {
@@ -58,10 +53,10 @@ entity Abastecimento {
     TipoCombustivelId : INT <<FK>>
     EstabelecimentoId : INT <<FK>>
     * DataHora : DATETIME
-    * ValorTotal : DECIMAL(10,2)
-    * TotalLitros : DECIMAL(8,3)
-    ValorPorLitro : DECIMAL(8,4)
-    * Odometro : DECIMAL(10,2)
+    * ValorTotal : DECIMAL
+    * TotalLitros : DECIMAL
+    ValorPorLitro : DECIMAL
+    * Odometro : DECIMAL
 }
 
 ' ── Relacionamentos ──────────────────────────────────────
