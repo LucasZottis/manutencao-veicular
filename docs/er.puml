@@ -1,0 +1,77 @@
+@startuml controle_veicular_er
+
+skinparam classAttributeIconSize 0
+skinparam class {
+    FontSize 12
+}
+
+' ── Lookup Tables ────────────────────────────────────────
+
+entity TipoCombustivel {
+    * Id : INT <<PK>>
+    --
+    * Descricao : VARCHAR(50)
+}
+
+entity TipoServico {
+    * Id : INT <<PK>>
+    --
+    * Descricao : VARCHAR(100)
+}
+
+entity Estabelecimento {
+    * Id : INT <<PK>>
+    --
+    * Nome : VARCHAR(200)
+}
+
+' ── Entidades principais ─────────────────────────────────
+
+entity Veiculo {
+    * Id : INT <<PK>>
+    --
+    * Apelido : VARCHAR(100)
+    * OdometroAtual : DECIMAL(10,2)
+    TanqueCapacidade : DECIMAL(6,2)
+    Placa : VARCHAR(10)
+    TipoCombustivelId : INT <<FK>>
+}
+
+entity Servico {
+    * Id : INT <<PK>>
+    --
+    * VeiculoId : INT <<FK>>
+    TipoServicoId : INT <<FK>>
+    EstabelecimentoId : INT <<FK>>
+    * DataHora : DATETIME
+    * Odometro : DECIMAL(10,2)
+    * Valor : DECIMAL(10,2)
+    Descricao : VARCHAR(500)
+    Observacao : VARCHAR(500)
+    KmProximoServico : DECIMAL(10,2)
+}
+
+entity Abastecimento {
+    * Id : INT <<PK>>
+    --
+    * VeiculoId : INT <<FK>>
+    TipoCombustivelId : INT <<FK>>
+    EstabelecimentoId : INT <<FK>>
+    * DataHora : DATETIME
+    * ValorTotal : DECIMAL(10,2)
+    * TotalLitros : DECIMAL(8,3)
+    ValorPorLitro : DECIMAL(8,4)
+    * Odometro : DECIMAL(10,2)
+}
+
+' ── Relacionamentos ──────────────────────────────────────
+
+TipoCombustivel ||--o{ Veiculo : "aceita"
+TipoCombustivel ||--o{ Abastecimento : "utiliza"
+TipoServico ||--o{ Servico : "categoriza"
+Estabelecimento ||--o{ Servico : "realiza"
+Estabelecimento ||--o{ Abastecimento : "fornece"
+Veiculo ||--o{ Servico : "possui"
+Veiculo ||--o{ Abastecimento : "possui"
+
+@enduml
